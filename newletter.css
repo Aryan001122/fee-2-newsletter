@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+    color: #333; /* Dark grey text color for readability */
+}
+
+header {
+    background-color: #333; /* Dark grey background for header */
+    color: #f4f4f4; /* Light grey text color */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444; /* Slightly lighter grey background for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #f4f4f4; /* Light grey text color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery Styles */
+.gallery {
+    padding: 20px;
+}
+
+.news-snippet {
+    background-color: #fff; /* White background for news snippets */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.news-snippet img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.news-snippet h3 {
+    margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark grey background for footer */
+    color: #f4f4f4; /* Light grey text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
